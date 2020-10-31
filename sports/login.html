@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Sporto</span> Future is Here</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="current"><a href="login.html">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+	<div class="Login">
+		<img src="Graphicloads-100-Flat-Contact.ico" class="avatar">
+		<h1>Login Here</h1>
+		<form>
+			<p>Username</p>
+			<input type="text" id="n1" name="" placeholder="Enter Username">
+			<p>Password</p>
+			<input type="Password" id="n2" name="" placeholder="Enter Password">
+			<input type="Submit" name="" onclick="fn()" value="Login">
+			<a href="#">Forgot Password</a><br>
+			<a href="register.html">Don't have a account </a><br>
+			
+			<script type="text/javascript">
+				function fn(){
+					var v1=document.getElementById("n1").value;
+					var v2=document.getElementById("n1").value;
+					if(v1=="Password" && v2=="Password"){
+						window.open("dashboard.html");
+					}
+					else
+						window.alert("Wrong Username and Password!!!");
+				}
+			</script>
+
+		</form>
+
+	</div>
+</body>
+</html>

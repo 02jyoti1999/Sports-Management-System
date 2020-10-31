@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sporto | Register</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Sporto | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="sample-registration-form-validation.js"></script>
+<style type="text/css">
+	.table{
+		background-color: #C3392F;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 40px;
+
+	}
+</style>
+</head>
+<body onload="document.registration.userid.focus();" style="background-color: #D9D379;">
+	<header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Sporto </span>  Future is Here</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li ><a href="login.html">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="xyz">
+
+    <h1 align="center" style="margin-right: 300px;">Registration Form</h1>
+
+<table align="center" width="50%" height="550px" class="table">
+	<tr>
+		<th>
+<div class="table" style="background-color: #DB9731; width: 90%; height: 500px">			
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="userid">User id:</label></li>
+<li><input type="text" name="userid" size="12" placeholder="Name" style="background-color: #F9C271;border:0px;height: 25px;padding-left: 25px;" /></li>
+<li><label for="passid">Password:</label></li>
+<li><input type="password" name="passid" size="12" placeholder="Password" style="background-color: #F9C271;border:0px;height: 25px;padding-left: 25px;"Password/></li>
+<li><label for="username">Name:</label></li>
+<li><input type="text" name="username" size="12" placeholder="Username" style="background-color: #F9C271;border:0px;height: 25px;padding-left: 25px;"/></li>
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="50" placeholder="Address" style="background-color: #F9C271;border:0px;height: 25px;padding-left: 25px;"/></li>
+<li><label for="country">Country:</label></li>
+<li><select name="country" style="background-color: #F9C271">
+<option selected="" value="Default" >(Please select a country)</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select></li>
+<li><label for="zip">ZIP Code:</label></li>
+<li><input type="text" name="zip" placeholder="Zip Code" style="background-color: #F9C271;border:0px;height: 25px;padding-left: 25px ;"/></li>
+<li><label for="email">E-mail:</label></li>
+<li><input type="text" name="email" size="50" placeholder="E-mail" style="background-color: #F9C271;border:0px;height: 25px;padding-left: 25px;"/></li>
+<li><label id="gender">Sex:</label></li>
+<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="msex" value="Female" /><span>Female</span></li>
+<li><label>Language:</label></li>
+<li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+<li><label for="desc">About:</label></li>
+<li><textarea name="desc" id="desc" placeholder="" style="background-color: #F9C271;border:0px;padding-left: 10px;padding-top: 10px;padding-right: 10px;"></textarea></li>
+<li><input type="submit" name="submit" value="Submit" style="background-color: #A54430 ; border: 0px; height:25px;width: 70px;" /></li>
+</ul>
+</form>
+</div>
+</th>
+</tr>
+</table>
+<hr>
+
+
+</div>
+
+</body>
+</html>
